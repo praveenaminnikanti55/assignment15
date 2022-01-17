@@ -79,8 +79,8 @@
     .Banner-section{
        
         background-image: linear-gradient(to left,#8FE5CD,#7099C3,#4839B7);
-       height: 50%;
-        width:320%;
+        height: 50%;
+        width:400vw;
     }
     .Banner-container{
         display: flex;
@@ -99,152 +99,179 @@
 
 }
 
+.cardflex{
+    display: flex;
+    justify-content: center;
+    margin: 38px;
+    margin-top: 29px;
+    margin-bottom: 40px;
+}
+.flex-item {
+    width: 309px;
+    border: 1px transparent;
+    border-radius: 2px;
+    margin-right: 29px;
+    padding: 34px;
+    margin-top: 150px;
+}
+/*.flex-item{
+    width: 220px;
+    border: 1px transparent  ;
+    border-radius: 2px;
+    margin-right: 15px;
+    padding: 20px;
+}*/
+.box1{
+    margin-right: 29px;
+    box-shadow: 0px 3px 10px rgb(0 0 0 /0.2);
 
+}
+.box2{
+    margin-left: 29px;
+    box-shadow: 0px 3px 10px rgb(0 0 0 /0.2);
 
+}
+.dotsheading{
+    font-size:30px ;
+    font-family: "Poppins";
+    font-weight:600 ;    
+    margin-bottom: 3px;
+}
+.dotspara{
+    font-size:20px ;
+    font-family: "Poppins";
+    font-weight: 400;
+    margin-top: 3px;
 
-.section2-container{
-   padding:50px;
-   
-
-        }
-   .title2{
-   
-    text-align:center;
-    color:#FDA145;
-    font-family:"Roboto";
-    font-size:60px;
-    margin-left:40px;
-    margin-right:40px;
-
-
-
-   
-       
-       
-       
-       
-   }
-   @media screen and (min-width:320px) and (max-width:400px){
-    *{
-        margin:0px;
-        padding:0px;
-    }
-   
-
-    .section2-container{
-        padding:30px;
-        
-        
-     
-             }
-
-
-    .title2{
-        position:relative;
-       left:50%;
-       width:420px;
-       transform:translate(-50%,50%);
-       color:lightsalmon;
-       font-size:30px;
-    }
-    
+}
+.section2cardsection{
+    padding: 25px;
+}
+.section2title{
+    text-align: center;
+    position: relative;
+    left: 50%;
+    width: 382px;
+    height: 87px;
+    transform: translate(-50%,50%);
+    color: #FDA145;
+    font-family: poppins;
+    font-weight: 600;
+    font-size: 34px;
+    margin-bottom: 54px;
+}
+.section2title{
+    text-align: center;
+    color: #FDA145;
+    font-family: poppins;
+    font-weight: 600;
+    font-size: 57px;
+    width: 997px;
+    margin-top: 0;
+    /*margin-bottom: 54px;
+    width: 997px;
+    margin-left: 26px;
+    margin-right: 196px;
+    margin-top: 0;*/
 }
 
-   .card-section{
-       display:flex;
-       justify-content:center;
-       padding:96px;
-      
+.actionbutton1,.actionbutton2,.actionbutton3{
+    margin-top: 9px;
+    margin-bottom: 15px;
+    border-radius: 25px;
+    border: transparent;
+    padding: 9px;
+    width: 107px;
+    height: 44px;
+    color: #ffff;
+}
 
-   }
-   .item{
-       height:300px;
-       width:300px;
-       border:1px transparent;
-       border-radius:2px;
-       margin-right:15px;
-       padding:20px;
-    
-   }
-   .box{
-       box-shadow:0px 3px 20px  rgb(0 0 0/0.2);
-   }
-   .dots-image{
-       padding:15px;
-   }
-   
-   .title3{
-       font-size:30px;
-       padding:15px;
-   }
-   .sub-title{
-       font-size:20px;
-       padding:17px;
-    
+.actionbutton1{
+    background-image: linear-gradient(to right,#4A90FF,#FA3BB1);
+
+}
+.actionbutton2{
+    background-image: linear-gradient(to right,#B79039,#FF8545);
+
+}
+
+
+
+
+@media screen and (min-width:320px) and (max-width:475px){
+
+.section2cardsection{
+        width: 300vw;
     }
-    @media  screen and (max-width:320px) {
-        .card-section{
-            display:flex;
-            flex-direction:column;
-            justify-content:center;
-            padding:96px;
-            margin-left:50%;
-     
-        } 
-        .item{
-            height:200px;
-            width:200px;
-            border:1px transparent;
-            border-radius:2px;
-            margin-right:15px;
-            padding:25px;
-           
-         
-        }
+    h2.section2title{
+        font-size: 3.5em;
+        padding: 3px;
+        margin-bottom: 136px;
+        margin-left: 80px;
 
-        .box{
-            box-shadow:0px 3px 10px  rgb(0 0 0/0.2);
-            
-        }
-        .dots-image{
-            padding:10px;
-        }
+    }
+    .content{
+        display: flex;
+        flex-direction: column;
+        /*flex-wrap: wrap;
+        position: relative;*/
+    }
+    .cardflex{
+        display: flex;
+        flex-direction: column;
         
-        .title3{
-            font-size:20px;
-            padding:10px;
-        }
-        .sub-title{
-            font-size:10px;
-            padding:10px;
-         
-         }
-
-
-
+    }
+    .flex-item {
+        padding: 7px;
+        margin-left: 270px;
+        width: 64%;
+        height: 487px;
+    
+    }
+    .flex-item.box.box2 {
+        margin-left: 29%;
+    }
+    .dotspara {
+        margin-left: 45px;
+        font-size: 2.4em;
+    }
+    .dotsheading {
+        margin-left: 41px;
+        font-size: 3em;
+    }
+    .dotsimg {
+        width: 30%;
+        margin-left: 34px;
+        margin-top: 28px;
+    }
+    .actionbutton1,.actionbutton2{
+        margin-left: 41px;
+        width: 158px;
+        height: 66px;
+        font-size: 1.3rem;
     }
 
+}
 
 
-    .action-link1{
-    background-image:linear-gradient(to right,#6682F3,#E247BC);
-    color:white; 
-    border-radius:15px; 
-    margin:10px; 
-    padding:8px;
+
+
+
+
+
+
+       
+   
+         
+        
+        
+
+
+
+    
    
 
-   }
    
-
-   .action-link2{
-    background-image:linear-gradient(to right,#C58E3B,#F18743);
-    color:white;  
-    border-radius:15px;
-    margin:10px;
-    padding:8px;
-   }
-
 
 
 
@@ -338,8 +365,8 @@
 
     .IntegrationSection{
         background-color: #6430B7;
-        height:700px;
-        width:1100px;
+        height: 50%;
+        width:400vw;
     }
     .containersec3{
         margin: auto;
@@ -805,25 +832,28 @@
 </section>
 
 
-<section class="section2-container" >
-   
-    <h1 class="title2">Lorem ipsum is simply dummy text of the printing and</h1>  
+<section class="section2cardsection">
+    <h2 class="section2title">Lorem Ipsum is simply dummy text of the printing and</h2>
 
-    <section class="card-section">
-         <div class="item box">
-         <img src="dotsimage" class="dots-image">
-        <h1 class="title3">Lorem Psum</h1>
-        <p class="sub-title">Lorem Psum is simply dummy text of the printing and typesetting industry</p>
-        <button class="action-link1">Action Link</button>
-         </div>
-          <div class="item box">
-            <img src="dotsimage" class="dots-image">
-            <h1 class="title3" >Lorem Psum</h1>
-            <p class="sub-title">Lorem Psum is simply dummy text of the printing and
-             typesetting industry</p>
-            <button class="action-link2">Action Link</button>
-        </div>
-    </section>
+<section class="cardflex" >
+    <div class="flex-item box box1">
+        <img class="dotsimg" src="dotsimage" alt="dotsimage">
+        <h3 class="dotsheading">Lorem Psum</h3>
+        <p class="dotspara">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+        <button class="actionbutton1">ACTION LINK</button>
+    </div>
+    <div class="flex-item box box2">
+        <img class="dotsimg" src="dotsimage" alt="dotsimage">
+        <h3 class="dotsheading">Lorem Psum</h3>
+        <p class="dotspara">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+        <button class="actionbutton2">ACTION LINK</button>
+    </div>
+</section>
+</section>
+
+
+
+
 
 
     <section class="IntegrationSection">
@@ -932,5 +962,13 @@
 </html>    
         
 
+   
+   
+
+    
+
+    
+           
+           
    
    
